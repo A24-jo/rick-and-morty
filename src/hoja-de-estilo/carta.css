@@ -1,0 +1,38 @@
+
+
+.cartas {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.borrador {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.datos {
+  text-align: center;
+  margin-top: 10%;
+  transform: translateY(-50%);
+}
+
+.foto {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  transform: translateY(-5%);
+}

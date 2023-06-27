@@ -1,0 +1,11 @@
+.buscador {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+  
+buscador:focus {
+    border-color: #007bff;
+  }
