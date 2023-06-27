@@ -6,10 +6,10 @@ function Buscador ({handleSearch}){
 
 
     return (
-        <> 
-        <label onClick={()=> handleSearch(nombre)} >Buscador</label>
+        <div className='estilo-buscador'>
         <input value={nombre} onChange={(e)=> setNombre(e.target.value)} placeholder="escribe el nombre" className='buscador'></input>
-        </>
+        <label onClick={()=> handleSearch(nombre)} >Buscador</label>
+        </div>
     )
 }
 

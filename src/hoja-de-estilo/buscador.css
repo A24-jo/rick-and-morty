@@ -1,11 +1,30 @@
-.buscador {
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    outline: none;
+.estilo-buscador  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    z-index: 10;
+    gap: 10px;
+    top: 0;
+    padding: 10px 20px;
+    background-color: rgb(21, 16, 46);
+    left: 40%;
+    box-shadow: 5px 5px 10px black;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
 }
-  
-buscador:focus {
-    border-color: #007bff;
-  }
+
+.estilo-buscador label {
+    margin-right: 10px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.estilo-buscador input { 
+    width: 200px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
